@@ -1,0 +1,31 @@
+body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; color: #333; }
+
+.hero-section { background-image: url('https://i.pinimg.com/736x/ec/11/1a/ec111ade59b080c37ed6ebcf3f22fa03.jpg'); background-size: cover; background-position: center; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; position: relative; }
+
+.hero-section .overlay { background-color: rgba(0, 0, 0, 0.6); padding: 2rem; border-radius: 15px; color: #fff; }
+
+h1, h2 { margin-bottom: 0.5rem; }
+
+.section { padding: 4rem 2rem; max-width: 1000px; margin: auto; background: #fff; margin-bottom: 2rem; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+
+.battles li { list-style-type: square; margin-left: 1.5rem; padding: 0.5rem 0; }
+
+.quotes blockquote { font-weight: bold; font-size: 1.2rem; margin: 1rem 0; color: #555; border-left: 4px solid #4CAF50; padding-left: 1rem; }
+
+.wiki-link { text-decoration: none; color: #0077cc; font-weight: bold; font-size: 1.1rem; }
+
+.video { padding: 4rem 2rem; max-width: 1000px; margin: auto; margin-bottom: 2rem; background: #fff; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+
+.video iframe { width: 100%; height: 500px; border: none; display: block; border-radius: 10px; }
+
+.feedback form { display: flex; flex-direction: column; }
+
+.feedback input, .feedback textarea { margin-bottom: 1rem; padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem; }
+
+.feedback button { background-color: #0077cc; color: white; padding: 0.8rem; font-size: 1rem; border: none; border-radius: 8px; cursor: pointer; transition: background 0.3s ease; }
+
+.feedback button:hover { background-color: #005fa3; }
+
+.contact a { color: #0077cc; text-decoration: none; }
+
+footer { background: #333; color: white; text-align: center; padding: 1rem 0; font-size: 0.9rem; }
